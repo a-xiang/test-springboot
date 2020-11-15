@@ -1,0 +1,15 @@
+limit:
+  minMoney: 0.01
+  maxMoney: 999
+  description: 说明：最大红包=${limit.maxMoney}，最小红包=${limit.minMoney}。
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/luckymoney?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

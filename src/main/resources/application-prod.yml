@@ -1,0 +1,4 @@
+limit:
+  minMoney: 2
+  maxMoney: 999
+  description: 说明：最大红包=${limit.maxMoney}，最小红包=${limit.minMoney}。
